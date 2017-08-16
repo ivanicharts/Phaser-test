@@ -255,6 +255,8 @@ function create ()
 
     //  Create our keyboard controls
     cursors = this.input.keyboard.createCursorKeys();
+    console.log('this.input.keyboard.processKeyDown', this.input.processKeyDown)
+    // this.input.keyboard.processKeyDown(e => console.log('process', e))
 }
 
 function update (time, delta)
